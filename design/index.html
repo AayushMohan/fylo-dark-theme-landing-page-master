@@ -4,17 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <script defer src="script.js"></script>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="/images/favicon-32x32.png"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
     />
     <title>
       Frontend Mentor | Fylo landing page with dark theme and features grid
     </title>
   </head>
-  <body></body>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navigation">
+      <img src="/images/logo.svg" alt="Flyo Logo" class="navigation__logo" />
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Features</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Team</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#" class="navigation__link">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="header__image-box">
+        <img src="/images/illustration-intro.png" alt="Illustration Intro" />
+      </div>
+
+      <div class="header__text-box">
+        <div class="header-primary">
+          <h1 class="header-primary--main">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <span class="header-primary--sub"
+            >Fylo stores all your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends
+            family, and co-workers.</span
+          >
+          <a href="#" class="btn btn--get">Get Started</a>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>

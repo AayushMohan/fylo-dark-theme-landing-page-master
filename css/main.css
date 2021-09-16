@@ -1,1 +1,111 @@
-/* No CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  background-color: #181f2a;
+  color: #fff;
+  font-weight: 400;
+  animation: moveInBottom 0.3s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.header-primary--main {
+  padding: 5rem 0 2rem;
+  width: 40%;
+}
+
+.header-primary--sub {
+  padding: 1rem 6rem;
+  font-weight: 400;
+  width: 40%;
+}
+
+.btn--get {
+  margin-top: 2rem;
+  padding: 1rem 5rem;
+  font-weight: 700;
+  color: #fff;
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  border-radius: 5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn--get:active {
+  background-image: linear-gradient(to center, white, #65e2d9, #339ecc);
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 3rem;
+  animation: moveInBottom 1s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navigation a {
+  margin-right: 4rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:active,
+.navigation a:hover {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 700;
+  transition: all 0.5s;
+  animation: ease-in;
+}
+
+.header {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  animation: moveInBottom 1.5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.header__image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-primary {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}

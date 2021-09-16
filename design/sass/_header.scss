@@ -1,0 +1,21 @@
+.header {
+  font-family: $font-primary;
+  text-align: center;
+  animation: moveInBottom 1.5s ease-out;
+  animation-fill-mode: backwards;
+
+  &__image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-primary {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+  }
+}

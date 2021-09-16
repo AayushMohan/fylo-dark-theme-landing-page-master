@@ -1,0 +1,50 @@
+// Colors
+$color-dark-blue-1: hsl(217, 28%, 15%);
+$color-dark-blue-2: hsl(218, 28%, 13%);
+$color-dark-blue-3: hsl(216, 53%, 9%);
+$color-dark-blue-4: hsl(219, 30%, 18%);
+
+$color-gradient-cyan: hsl(176, 68%, 64%);
+$color-gradient-blue: hsl(198, 60%, 50%);
+
+$color-light-red: hsl(0, 100%, 63%);
+
+$color-white: hsl(0, 0%, 100%);
+
+$font-primary: "Raleway", sans-serif;
+$font-display: "Open Sans", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-display;
+  font-size: 1.4rem;
+  background-color: $color-dark-blue-2;
+  color: #fff;
+  font-weight: 400;
+  animation: moveInBottom 0.3s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
