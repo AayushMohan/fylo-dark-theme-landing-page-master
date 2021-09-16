@@ -4,6 +4,8 @@
   margin: 4rem 3rem;
   animation: moveInBottom 1s ease-out;
   animation-fill-mode: backwards;
+  background-color: $color-dark-blue-1;
+
   &__list {
     list-style: none;
     display: flex;
@@ -22,6 +24,6 @@
     text-decoration: underline;
     font-weight: 700;
     transition: all 0.5s;
-    animation: ease-in;
+    animation: ease-out;
   }
 }

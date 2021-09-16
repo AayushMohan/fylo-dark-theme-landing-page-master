@@ -21,14 +21,15 @@
   );
   border-radius: 5rem;
   text-decoration: none;
-  transition: all 0.2s;
+  transition: all 3s;
   &:active {
     background-image: linear-gradient(
       to center,
-      $color-white,
       $color-gradient-cyan,
       $color-gradient-blue
     );
-    box-shadow: 0 0.5rem 1rem rgba(#fff, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(#000, 0.15);
+    animation: moveInTop 2s ease-out;
+    animation-fill-mode: backwards;
   }
 }

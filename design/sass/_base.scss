@@ -30,21 +30,9 @@ html {
 body {
   font-family: $font-display;
   font-size: 1.4rem;
-  background-color: $color-dark-blue-2;
+  background-color: $color-dark-blue-1;
   color: #fff;
   font-weight: 400;
   animation: moveInBottom 0.3s ease-out;
   animation-fill-mode: backwards;
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(-3rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
 }
