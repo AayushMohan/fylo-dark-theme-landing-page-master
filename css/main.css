@@ -112,9 +112,9 @@ body {
 
 .grid {
   display: grid;
-  grid-gap: 15rem;
-  grid-template-rows: repeat(2, 25rem);
-  grid-template-columns: repeat(2, 30rem);
+  grid-gap: 6rem;
+  grid-template-rows: repeat(2, 28rem);
+  grid-template-columns: repeat(2, 35rem);
   justify-content: center;
   padding-top: 10rem;
   background-color: #181f2a;
@@ -126,6 +126,18 @@ body {
   margin-bottom: 2rem;
 }
 
+.grid__content-access-icon {
+  padding-top: 1rem;
+}
+
+.grid__content-file-icon {
+  padding-top: 0.7rem;
+}
+
+.grid__content--text {
+  padding: 1rem auto;
+}
+
 .grid__content-text-primary {
   text-align: center;
   margin: 1rem;
@@ -134,7 +146,7 @@ body {
 .grid__content-text-secondary {
   text-align: center;
   line-height: 1.5;
-  margin: 2rem;
+  width: 100%;
 }
 
 @keyframes moveInBottom {

@@ -1,8 +1,8 @@
 .grid {
   display: grid;
-  grid-gap: 15rem;
-  grid-template-rows: repeat(2, 25rem);
-  grid-template-columns: repeat(2, 30rem);
+  grid-gap: 6rem;
+  grid-template-rows: repeat(2, 28rem);
+  grid-template-columns: repeat(2, 35rem);
   justify-content: center;
   padding-top: 10rem;
   background-color: $color-dark-blue-2;
@@ -13,6 +13,18 @@
     margin-bottom: 2rem;
   }
 
+  &__content-access-icon {
+    padding-top: 1rem;
+  }
+
+  &__content-file-icon {
+    padding-top: 0.7rem;
+  }
+
+  &__content--text {
+    padding: 1rem auto;
+  }
+
   &__content-text-primary {
     text-align: center;
     margin: 1rem;
@@ -21,6 +33,6 @@
   &__content-text-secondary {
     text-align: center;
     line-height: 1.5;
-    margin: 2rem;
+    width: 100%;
   }
 }
