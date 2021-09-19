@@ -177,6 +177,7 @@ body {
   padding-bottom: 0.5rem;
   text-decoration: none;
   border-bottom: 1px solid #65e2d9;
+  text-align: left;
 }
 
 .story a:active,
