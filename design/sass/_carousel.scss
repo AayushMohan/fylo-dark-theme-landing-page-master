@@ -1,0 +1,31 @@
+.carousel {
+  background-color: $color-dark-blue-2;
+
+  &__img {
+    display: inline-block;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    &--section {
+      margin: 4rem;
+      background-color: $color-dark-blue-4;
+      border: 1px solid $color-dark-blue-1;
+      padding: 4rem 0;
+    }
+
+    &--details {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &--img {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+    }
+  }
+}

@@ -186,6 +186,38 @@ body {
   border-bottom: 1px solid white;
 }
 
+.carousel {
+  background-color: #181f2a;
+}
+
+.carousel__img {
+  display: inline-block;
+}
+
+.carousel__card {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.carousel__card--section {
+  margin: 4rem;
+  background-color: #202a3c;
+  border: 1px solid #1c2431;
+  padding: 4rem 0;
+}
+
+.carousel__card--details {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel__card--img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
 @keyframes moveInBottom {
   0% {
     opacity: 0;
