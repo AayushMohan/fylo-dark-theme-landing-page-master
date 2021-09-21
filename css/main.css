@@ -188,10 +188,15 @@ body {
 
 .carousel {
   background-color: #181f2a;
+  position: relative;
+  padding: 6rem;
+  padding-bottom: 20rem;
 }
 
 .carousel__img {
-  display: inline-block;
+  position: absolute;
+  left: 8.2rem;
+  top: 5.8rem;
 }
 
 .carousel__card {
@@ -201,21 +206,34 @@ body {
 }
 
 .carousel__card--section {
-  margin: 4rem;
+  margin: 3rem;
   background-color: #202a3c;
   border: 1px solid #1c2431;
-  padding: 4rem 0;
+  padding: 4rem 3.5rem 3rem;
+}
+
+.carousel__card--user {
+  display: flex;
+  padding-top: 3rem;
+  align-items: center;
 }
 
 .carousel__card--details {
   display: flex;
   flex-direction: column;
+  padding-left: 1rem;
 }
 
 .carousel__card--img {
-  width: 4rem;
-  height: 4rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
+}
+
+.carousel__card--profile-description {
+  font-size: 0.9rem;
+  padding-top: 0.3rem;
+  font-weight: lighter;
 }
 
 @keyframes moveInBottom {

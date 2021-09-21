@@ -1,8 +1,13 @@
 .carousel {
   background-color: $color-dark-blue-2;
+  position: relative;
+  padding: 6rem;
+  padding-bottom: 20rem;
 
   &__img {
-    display: inline-block;
+    position: absolute;
+    left: 8.2rem;
+    top: 5.8rem;
   }
 
   &__card {
@@ -11,21 +16,34 @@
     position: relative;
 
     &--section {
-      margin: 4rem;
+      margin: 3rem;
       background-color: $color-dark-blue-4;
       border: 1px solid $color-dark-blue-1;
-      padding: 4rem 0;
+      padding: 4rem 3.5rem 3rem;
+    }
+
+    &--user {
+      display: flex;
+      padding-top: 3rem;
+      align-items: center;
     }
 
     &--details {
       display: flex;
       flex-direction: column;
+      padding-left: 1rem;
     }
 
     &--img {
-      width: 4rem;
-      height: 4rem;
+      width: 2.5rem;
+      height: 2.5rem;
       border-radius: 50%;
+    }
+
+    &--profile-description {
+      font-size: 0.9rem;
+      padding-top: 0.3rem;
+      font-weight: lighter;
     }
   }
 }
