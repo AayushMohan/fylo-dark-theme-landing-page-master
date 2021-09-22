@@ -236,6 +236,22 @@ body {
   font-weight: lighter;
 }
 
+.cta {
+  margin: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  border: 1px solid #0b1523;
+  border-color: #202a3c;
+}
+
+.cta__text--primary {
+  font-size: 4rem;
+  padding: 3rem;
+}
+
 @keyframes moveInBottom {
   0% {
     opacity: 0;

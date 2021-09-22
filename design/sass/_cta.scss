@@ -1,0 +1,19 @@
+.cta {
+  margin: 8rem;
+  background-color: $color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  border: 1px solid $color-dark-blue-3;
+  border-color: $color-dark-blue-4;
+
+  &__text--primary {
+    font-size: 4rem;
+    padding: 3rem;
+  }
+
+  &__text--secondary {
+  }
+}
