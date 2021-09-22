@@ -237,7 +237,7 @@ body {
 }
 
 .cta {
-  margin: 8rem;
+  margin: 8rem 10rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -245,11 +245,11 @@ body {
   line-height: 2;
   border: 1px solid #0b1523;
   border-color: #202a3c;
+  border-radius: 1rem;
 }
 
 .cta__text--primary {
   font-size: 4rem;
-  padding: 3rem;
 }
 
 @keyframes moveInBottom {
