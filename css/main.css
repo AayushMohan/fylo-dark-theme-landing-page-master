@@ -237,19 +237,21 @@ body {
 }
 
 .cta {
-  margin: 8rem 10rem;
+  position: absolute;
+  top: 270rem;
+  left: 35rem;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   line-height: 2;
-  border: 1px solid #0b1523;
-  border-color: #202a3c;
+  border: 1px solid #1c2431;
   border-radius: 1rem;
 }
 
 .cta__text--primary {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  padding: 2rem;
 }
 
 @keyframes moveInBottom {
