@@ -276,6 +276,31 @@ body {
   padding: 0.5rem 2rem 0 0;
 }
 
+.footer__connect--contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__connect--contact-no {
+  margin: 1rem;
+}
+
+.footer__connect--contact-mail {
+  margin: 1rem;
+}
+
+.footer__connect--list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer__connect--list-li {
+  margin: 1rem;
+}
+
 @keyframes moveInBottom {
   0% {
     opacity: 0;

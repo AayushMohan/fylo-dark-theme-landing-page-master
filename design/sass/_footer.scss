@@ -18,7 +18,28 @@
       }
     }
 
-    &__contact {
+    &--contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &-no {
+        margin: 1rem;
+      }
+
+      &-mail {
+        margin: 1rem;
+      }
+    }
+
+    &--list {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      list-style: none;
+
+      &-li {
+        margin: 1rem;
+      }
     }
   }
 }
