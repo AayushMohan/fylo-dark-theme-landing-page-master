@@ -1,0 +1,24 @@
+.footer {
+  padding: 15rem 10rem 5rem;
+  background-color: $color-dark-blue-3;
+
+  &__connect {
+    display: flex;
+    justify-content: space-between;
+
+    &--location {
+      display: flex;
+      align-items: flex-start;
+      width: 30%;
+      margin: 3rem 0;
+      line-height: 1.5;
+
+      &-icon {
+        padding: 0.5rem 2rem 0 0;
+      }
+    }
+
+    &__contact {
+    }
+  }
+}
