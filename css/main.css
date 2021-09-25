@@ -238,7 +238,7 @@ body {
 
 .cta {
   position: absolute;
-  top: 275rem;
+  top: 270rem;
   left: 28rem;
   width: 60%;
   display: flex;
@@ -262,21 +262,36 @@ body {
 
 .cta__action {
   display: flex;
-  padding: 2rem 0;
+  padding: 2rem 0 4rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .cta__email {
-  width: 30rem;
+  width: 40rem;
   height: 4rem;
   border-radius: 3rem;
   border: none;
+  padding-left: 1rem;
+}
+
+.cta__email:focus {
+  padding: 2rem;
+  border: none;
+  border-color: #fff;
 }
 
 .cta__btn--started {
-  margin-left: 2rem;
+  width: 18rem;
+  height: 4rem;
+  margin-left: 3rem;
+  padding-top: 0.5rem;
   color: white;
-  background-color: #339ecc;
+  background-image: linear-gradient(to left, #339ecc, #65e2d9);
   border-radius: 5rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .footer {
