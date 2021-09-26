@@ -275,10 +275,8 @@ body {
   padding-left: 1rem;
 }
 
-.cta__email:focus {
+.cta__email:focus, .cta__email::placeholder {
   padding: 2rem;
-  border: none;
-  border-color: #fff;
 }
 
 .cta__btn--started {

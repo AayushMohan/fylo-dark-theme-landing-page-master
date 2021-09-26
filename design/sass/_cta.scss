@@ -36,10 +36,9 @@
     padding-left: 1rem;
   }
 
-  &__email:focus {
+  &__email:focus,
+  &__email::placeholder {
     padding: 2rem;
-    border: none;
-    border-color: #fff;
   }
 
   &__btn--started {
