@@ -339,6 +339,20 @@ body {
   margin: 1rem;
 }
 
+.footer__connect--social {
+  display: flex;
+}
+
+.footer__connect--social-icons {
+  margin: 2rem;
+  padding: 1rem;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid white;
+  border-radius: 5rem;
+  color: white;
+}
+
 @keyframes moveInBottom {
   0% {
     opacity: 0;

@@ -41,5 +41,19 @@
         margin: 1rem;
       }
     }
+
+    &--social {
+      display: flex;
+
+      &-icons {
+        margin: 2rem;
+        padding: 1rem;
+        width: 2rem;
+        height: 2rem;
+        border: 1px solid $color-white;
+        border-radius: 5rem;
+        color: $color-white;
+      }
+    }
   }
 }
