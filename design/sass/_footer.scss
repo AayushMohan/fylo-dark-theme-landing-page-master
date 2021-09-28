@@ -5,12 +5,12 @@
   &__connect {
     display: flex;
     justify-content: space-between;
+    margin: 3rem 0;
 
     &--location {
       display: flex;
       align-items: flex-start;
       width: 30%;
-      margin: 3rem 0;
       line-height: 1.5;
 
       &-icon {
@@ -21,13 +21,18 @@
     &--contact {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      &-no {
-        margin: 1rem;
-      }
+      justify-content: flex-start;
 
+      &-no,
       &-mail {
         margin: 1rem;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      }
+
+      &-icon {
+        padding-right: 4rem;
       }
     }
 
@@ -37,7 +42,10 @@
       flex-wrap: wrap;
       list-style: none;
 
-      &-li {
+      &-li-1 {
+        margin: 1rem;
+      }
+      &-li-2 {
         margin: 1rem;
       }
     }

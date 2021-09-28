@@ -300,13 +300,13 @@ body {
 .footer__connect {
   display: flex;
   justify-content: space-between;
+  margin: 3rem 0;
 }
 
 .footer__connect--location {
   display: flex;
   align-items: flex-start;
   width: 30%;
-  margin: 3rem 0;
   line-height: 1.5;
 }
 
@@ -317,15 +317,18 @@ body {
 .footer__connect--contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
-.footer__connect--contact-no {
+.footer__connect--contact-no, .footer__connect--contact-mail {
   margin: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-.footer__connect--contact-mail {
-  margin: 1rem;
+.footer__connect--contact-icon {
+  padding-right: 4rem;
 }
 
 .footer__connect--list {
@@ -335,7 +338,11 @@ body {
   list-style: none;
 }
 
-.footer__connect--list-li {
+.footer__connect--list-li-1 {
+  margin: 1rem;
+}
+
+.footer__connect--list-li-2 {
   margin: 1rem;
 }
 
