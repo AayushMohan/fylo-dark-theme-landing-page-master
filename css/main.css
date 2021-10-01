@@ -293,14 +293,14 @@ body {
 }
 
 .footer {
-  padding: 15rem 10rem 5rem;
+  padding: 15rem 10rem 1rem;
   background-color: #0b1523;
 }
 
 .footer__connect {
   display: flex;
   justify-content: space-between;
-  margin: 3rem 0;
+  margin: 3rem 0 0;
 }
 
 .footer__connect--location {
@@ -308,6 +308,7 @@ body {
   align-items: flex-start;
   width: 30%;
   line-height: 1.5;
+  padding-top: 0.5rem;
 }
 
 .footer__connect--location-icon {
@@ -328,7 +329,7 @@ body {
 }
 
 .footer__connect--contact-icon {
-  padding-right: 4rem;
+  padding-right: 3rem;
 }
 
 .footer__connect--list {
@@ -344,6 +345,9 @@ body {
 
 .footer__connect--list-li-2 {
   margin: 1rem;
+  margin-left: 14rem;
+  position: relative;
+  bottom: 15.5rem;
 }
 
 .footer__connect--social {
@@ -351,10 +355,10 @@ body {
 }
 
 .footer__connect--social-icons {
-  margin: 1.5rem;
-  padding: 1rem;
-  width: 2rem;
-  height: 2rem;
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border: 1px solid white;
   border-radius: 5rem;
   color: white;

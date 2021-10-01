@@ -1,17 +1,18 @@
 .footer {
-  padding: 15rem 10rem 5rem;
+  padding: 15rem 10rem 1rem;
   background-color: $color-dark-blue-3;
 
   &__connect {
     display: flex;
     justify-content: space-between;
-    margin: 3rem 0;
+    margin: 3rem 0 0;
 
     &--location {
       display: flex;
       align-items: flex-start;
       width: 30%;
       line-height: 1.5;
+      padding-top: 0.5rem;
 
       &-icon {
         padding: 0.5rem 2rem 0 0;
@@ -32,7 +33,7 @@
       }
 
       &-icon {
-        padding-right: 4rem;
+        padding-right: 3rem;
       }
     }
 
@@ -47,6 +48,9 @@
       }
       &-li-2 {
         margin: 1rem;
+        margin-left: 14rem;
+        position: relative;
+        bottom: 15.5rem;
       }
     }
 
@@ -54,10 +58,10 @@
       display: flex;
 
       &-icons {
-        margin: 1.5rem;
-        padding: 1rem;
-        width: 2rem;
-        height: 2rem;
+        margin: 1rem 0.5rem;
+        padding: 0.5rem;
+        width: 1.5rem;
+        height: 1.5rem;
         border: 1px solid $color-white;
         border-radius: 5rem;
         color: $color-white;
