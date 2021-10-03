@@ -337,6 +337,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   list-style: none;
+  margin: 0 3rem;
 }
 
 .footer__connect--list-li-1 {
