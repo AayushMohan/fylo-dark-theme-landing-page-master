@@ -25,4 +25,25 @@
     background-image: url(/images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
   }
+
+  &__btn--get {
+    margin-top: 2rem;
+    padding: 1rem 5rem;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(
+      to right,
+      $color-gradient-cyan,
+      $color-gradient-blue
+    );
+    border-radius: 5rem;
+    text-decoration: none;
+    transition: all 3s;
+  }
+  &__btn--get:hover {
+    box-shadow: 0 0.5rem 1rem rgba(#000, 0.15);
+    animation-fill-mode: backwards;
+    // background-image: linear-gradient(to top, rgba(255, 255, 255, 0.637));
+    background: rgb(151, 200, 214);
+  }
 }

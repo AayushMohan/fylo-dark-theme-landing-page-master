@@ -8,28 +8,3 @@
   font-weight: 400;
   width: 40%;
 }
-
-.btn--get {
-  margin-top: 2rem;
-  padding: 1rem 5rem;
-  font-weight: 700;
-  color: #fff;
-  background-image: linear-gradient(
-    to right,
-    $color-gradient-cyan,
-    $color-gradient-blue
-  );
-  border-radius: 5rem;
-  text-decoration: none;
-  transition: all 3s;
-  &:active {
-    background-image: linear-gradient(
-      to center,
-      $color-gradient-cyan,
-      $color-gradient-blue
-    );
-    box-shadow: 0 0.5rem 1rem rgba(#000, 0.15);
-    animation: moveInTop 2s ease-out;
-    animation-fill-mode: backwards;
-  }
-}
