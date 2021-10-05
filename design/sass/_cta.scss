@@ -57,4 +57,8 @@
     text-decoration: none;
     font-weight: 700;
   }
+
+  &__btn--started:hover {
+    background: rgb(151, 200, 214);
+  }
 }
