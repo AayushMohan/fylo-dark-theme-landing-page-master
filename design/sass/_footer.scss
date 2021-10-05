@@ -1,5 +1,5 @@
 .footer {
-  padding: 17rem 10rem 1rem;
+  padding: 20rem 10rem 1rem;
   background-color: $color-dark-blue-3;
 
   &__connect {
@@ -66,6 +66,11 @@
         border: 1px solid $color-white;
         border-radius: 5rem;
         color: $color-white;
+      }
+
+      &-icons:hover {
+        fill: $color-gradient-cyan;
+        border-color: $color-gradient-cyan;
       }
     }
   }

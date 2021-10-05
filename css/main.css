@@ -293,7 +293,7 @@ body {
 }
 
 .footer {
-  padding: 17rem 10rem 1rem;
+  padding: 20rem 10rem 1rem;
   background-color: #0b1523;
 }
 
@@ -363,6 +363,11 @@ body {
   border: 1px solid white;
   border-radius: 5rem;
   color: white;
+}
+
+.footer__connect--social-icons:hover {
+  fill: #65e2d9;
+  border-color: #65e2d9;
 }
 
 @keyframes moveInBottom {
