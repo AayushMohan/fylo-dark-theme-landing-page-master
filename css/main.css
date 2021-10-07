@@ -274,8 +274,16 @@ body {
   padding-left: 1rem;
 }
 
+.cta__email--error {
+  padding: 1rem;
+}
+
 .cta__email:focus, .cta__email::placeholder {
   padding: 2rem;
+}
+
+.cta .hidden {
+  display: none;
 }
 
 .cta__btn--started {

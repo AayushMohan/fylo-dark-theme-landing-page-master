@@ -34,11 +34,19 @@
     border-radius: 3rem;
     border: none;
     padding-left: 1rem;
+
+    &--error {
+      padding: 1rem;
+    }
   }
 
   &__email:focus,
   &__email::placeholder {
     padding: 2rem;
+  }
+
+  .hidden {
+    display: none;
   }
 
   &__btn--started {
