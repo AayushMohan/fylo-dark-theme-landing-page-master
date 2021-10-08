@@ -26,6 +26,7 @@
     padding: 2rem 0 4rem;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
 
   &__email {
@@ -37,6 +38,11 @@
 
     &--error {
       padding: 1rem;
+      position: absolute;
+      top: 5rem;
+      left: 0;
+      font-size: 1.2rem;
+      color: $color-light-red;
     }
   }
 
@@ -45,9 +51,9 @@
     padding: 2rem;
   }
 
-  .hidden {
-    display: block;
-  }
+  // .hidden {
+  //   display: none;
+  // }
 
   &__btn--started {
     width: 18rem;

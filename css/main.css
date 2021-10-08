@@ -264,6 +264,7 @@ body {
   padding: 2rem 0 4rem;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .cta__email {
@@ -276,14 +277,15 @@ body {
 
 .cta__email--error {
   padding: 1rem;
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  font-size: 1.2rem;
+  color: #ff4242;
 }
 
 .cta__email:focus, .cta__email::placeholder {
   padding: 2rem;
-}
-
-.cta .hidden {
-  display: none;
 }
 
 .cta__btn--started {
