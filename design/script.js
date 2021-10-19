@@ -1,12 +1,22 @@
 "Use Strict";
 
-const formError = document.getElementById("error");
-const inputs = Array.form(document.getElementsByTagName("input"));
+const hideError = document.querySelector("#error");
+const ctaBtn = document.querySelector("#cta__btn");
 
-formError.addEventListener("submit", (e) => {
+const newLocal = Array.form(document.getElementsByTagName("input"));
+
+// formError.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   let errorCount = 0;
+
+//   if (inputs[0].value.length < 1) {
+//   }
+// });
+
+ctaBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  let errorCount = 0;
 
   if (inputs[0].value.length < 1) {
+    document.querySelector("#error").toggleAttribute;
   }
 });
