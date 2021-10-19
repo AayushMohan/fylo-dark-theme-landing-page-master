@@ -288,6 +288,10 @@ body {
   padding: 2rem;
 }
 
+.cta .hidden {
+  display: none;
+}
+
 .cta__btn--started {
   width: 18rem;
   height: 4rem;
